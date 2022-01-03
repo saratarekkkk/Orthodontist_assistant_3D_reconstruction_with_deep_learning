@@ -25,7 +25,7 @@ class SH:
 
 class ParametricFaceModel:
     def __init__(self, 
-                bfm_folder='./BFM', 
+                bfm_folder='/content/drive/Shareddrives/GP_Team_7/Deep3DFaceRecon_pytorch/BFM', 
                 recenter=True,
                 camera_distance=10.,
                 init_lit=np.array([
